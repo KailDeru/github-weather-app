@@ -24,6 +24,7 @@
   </head>
   <body>
     <div class="container">
+      <div class = "weather-app">
       <form class = "search-form" id = "search-form"> 
         <div class = "row">
         <div class = "col-6">
@@ -42,6 +43,7 @@
         <ul>
           <h3 id = "date">Sunday</h3>
           </ul>
+          </div>
           <div class = "row">
             <div class ="col-6">
               <div class = "clearfix">
@@ -49,23 +51,32 @@
                   <span class = "temperature" id ="temperature">12</span>
                    <span class="units">
                         <a href = "#" id = "celsius-link">°C</a> | 
-                        <a href = "#" id = "farenheit-link">°F</a> 
-                   </span>
+                        <a href = "#" id = "farenheit-link">°F</a>
+                      </span>
                 </div>
             </div>
           </div>
-         
-        
+          <div class = "col-6">
+           <ul>
+                <li>Humidity: <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> m/h</li>
+              </ul>
+            </div>
+          </div>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
+        <small>
+          <a
+            href="https://github.com/KailDeru/github-weather-app.git"
+            target="_blank"
+            >Open-source code</a
+          >
+          by Kailey D.
+        </small>
       </div>
     </div>
-      <script src="src/script.js">
-      </script>
+    </div>
+    <script src="src/app.js"></script>
   </body>
-
-  
-  <footer>Open-sourced by 
-  <a href = https://github.com/KailDeru/github-weather-app.git target = "blank">
-    Kailey DeRubeis </a></footer> 
 </html>
-
+           
