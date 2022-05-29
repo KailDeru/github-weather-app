@@ -21,6 +21,11 @@ ul {
   padding: 0;
 }
 
+li {
+  list-style: none;
+  font-size: 12px;
+}
+
 a {
   color: slategray;
   text-decoration: none;
@@ -43,6 +48,10 @@ footer {
   padding-top: 20px;
 }
 
+small {
+  font-size: 10px;
+}
+
 .current-location {
   width: 60%;
   border-radius: 100px;
@@ -59,8 +68,18 @@ footer {
   font-size: small;
 }
 
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.weather-app-wrapper {
+  max-width: 600px;
+  margin: 30px auto;
+}
 .search-field {
-  width: 40%;
+  width: 50%;
   padding: 10px 35px 10px 15px;
   border: none;
   border-radius: 100px;
