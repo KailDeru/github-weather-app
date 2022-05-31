@@ -44,8 +44,6 @@ function displayTemperature(response) {
     `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
   iconElement.setAttribute("alt", response.data.weather[0].description);
-
-  getForecast(response.data.coord);
 }
 
 function search(city) {
@@ -57,7 +55,7 @@ function search(city) {
 function handleSubmit(event) {
   event.preventDefault();
   let cityInputElement = document.querySelector("#city-input").value;
-  searchCity(cityInputElement.value);
+  search(cityInputElement);
 }
 
 let form = document.querySelector("#search-form");
