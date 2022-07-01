@@ -1,5 +1,5 @@
 body {
-  background: rgb(246, 237, 208);
+  background: rgb(146, 213, 249);
 }
 
 html {
@@ -8,10 +8,10 @@ html {
 
 h1 {
   padding-top: 40px;
-  padding-bottom: 3px;
+  padding-bottom: 30px;
   margin: 0;
   font-weight: 900;
-  font-size: 42px;
+  font-size: 60px;
   line-height: 48px;
 }
 
@@ -55,6 +55,10 @@ li:first-letter {
   text-transform: capitalize;
 }
 
+.footer {
+  padding-top: 30px;
+}
+
 .current-location {
   width: 60%;
   border-radius: 100px;
@@ -82,7 +86,7 @@ li:first-letter {
   margin: 30px auto;
 }
 .search-field {
-  width: 50%;
+  width: 99%;
   padding: 10px 35px 10px 15px;
   border: none;
   border-radius: 100px;
@@ -122,6 +126,10 @@ li:first-letter {
 .date {
   font-size: 14px;
   padding-bottom: 50px;
+}
+
+#description {
+  text-transform: capitalize;
 }
 
 .fa-solid {
