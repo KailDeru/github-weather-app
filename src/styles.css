@@ -1,5 +1,5 @@
 body {
-  background: rgb(146, 213, 249);
+  background: rgb(251, 215, 131);
 }
 
 html {
@@ -75,6 +75,20 @@ li:first-letter {
   font-size: small;
 }
 
+.specifics {
+  font-family: monospace;
+  text-align: center;
+  font-size: 18px;
+}
+
+#icon {
+}
+
+#temperature {
+}
+.col-6 {
+  display: inline-block;
+}
 .weather-app {
   max-width: 600px;
   margin: 30px auto;
@@ -130,6 +144,11 @@ li:first-letter {
 
 #description {
   text-transform: capitalize;
+  font-family: monospace;
+}
+
+#date {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .fa-solid {
@@ -147,7 +166,6 @@ li:first-letter {
   margin-right: auto;
   padding-bottom: 20px;
 }
-
 .sm-weather-icon {
   width: 80px;
   text-align: center;
@@ -179,10 +197,12 @@ li:first-letter {
 }
 
 .weather-forecast-date {
-  font-size: 16px;
-  opacity: 0.6;
+  font-size: 14px;
+  opacity: 0.7;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
   font-size: 13px;
+  opacity: 0.7;
 }
